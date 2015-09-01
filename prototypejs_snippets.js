@@ -5,5 +5,5 @@ Event.observe('<formId>', 'submit', function(event) {
 
 //Call func on dom:loaded event
 (function() {
-	document.observe('dom:loaded', function_name);
+	document.observe('dom:loaded', <function_name>);
 })();
